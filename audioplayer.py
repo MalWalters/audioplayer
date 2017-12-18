@@ -1,4 +1,4 @@
-from classes.book import Book
+from classes.books import Book
 import time, datetime
 import json
 #import RPI.GPIO as GPIO

@@ -4,16 +4,23 @@ import json
 #import RPI.GPIO as GPIO
 
 def start():
+    #read current bookID
+    #print URL
+    #print last datetime stamp
     print(currentBookID[0]['currentBookID'])
     currentBookID[0]['currentBookID'] = currentBookID[0]['currentBookID'] + " again|"
     return
 
 def stop():
-    print("stop")
+    #write current date time to library.json (current book)
     return
 
 def switch():
-    
+    #update new bookID
+    newBook = input("ID of new book: ")
+    print(currentBookID)
+    with open('json/currentbook.json','w') as outfile:
+        json.dump(newBook,outfile)
     return
 
 #load libray, rfid reference table and current book ID from json

@@ -1,0 +1,19 @@
+[{ 
+  "bookList" : {
+    "book0001" : {
+      "title" : "title",
+	  "url" : "",
+	  "currentPlayTime" : ""
+    },
+	"book0002" : {
+      "title" : "title",
+	  "url" : "",
+	  "currentPlayTime" : ""
+    },
+	"book0003" : {
+      "title" : "title",
+	  "url" : "",
+	  "currentPlayTime" : ""
+    }
+  }
+ }]
